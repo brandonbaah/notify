@@ -1,0 +1,30 @@
+### All Authors
+
+GET http://127.0.0.1:8000/api/authors
+
+
+### All Books
+
+GET http://127.0.0.1:8000/api/notifications
+
+### First POST request
+
+POST http://127.0.0.1:8000/api/authors/
+Content-Type: application/json
+
+{
+  "first_name": "Kenya",
+  "last_name": "Barris",
+  "title": "Writer & Producer",
+}
+
+### First Referral Post request
+POST http://127.0.0.1:8000/api/referrals/
+Content-Type: application/json
+
+{
+  "name": "Rashidi Jones",
+  "company": "Tec Leimert",
+  "user_id": 1,
+  "note": "A new initiative in Leimert Park in South LA"
+}
